@@ -1,0 +1,33 @@
+/*
+
+2
+Faça um programa que leia dois valores e exiba o maior valor lido.
+
+Dicas:
+printf
+scanf
+if
+
+*/
+
+#include <stdio.h>
+
+int main (void) {
+  int num1;
+  int num2;
+
+  printf("Escolha o primeiro numero: ");
+  scanf("%d", &num1);
+  printf("Escolha o segundo numero: ");
+  scanf("%d", &num2);
+    if (num1 > num2) {
+          printf("O primeiro numero digitado e maior %d\n", num1);
+        }
+    if (num1 < num2) {
+          printf("O segundo numero digitado e maior %d\n", num2);
+        }
+  return 0;
+}
+
+
+
