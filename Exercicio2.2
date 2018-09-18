@@ -1,0 +1,17 @@
+//Exercicio 2.2
+#include <stdio.h>
+#include <conio.h>
+int main(void)
+{
+int contador, contador1; 
+printf("digite o primeiro: ");
+ 	 	scanf("%d", &contador);
+printf("digite o segundo: ");
+		scanf("%d", &contador1);
+for(contador = (contador + 1); contador < contador1; contador++)
+{
+printf("%d ", contador);  //Uma observação importante é que o exercicio pede para imprimir os numeros entre, portanto não devera imprimir o primeiro e o ultimo.
+}
+getch();
+return(0);
+}
