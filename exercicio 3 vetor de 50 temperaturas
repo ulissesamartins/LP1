@@ -1,13 +1,13 @@
 int main(void){
-	short int temperaturas[4];
+	short int temperaturas[51];
 	int i=0; 
 	float media;
 	float total=0;
 	int maisalta=0;
 
-	while(i<=4){
+	while(i<=51){
 		printf("Entre com uma temperatura: ");
-		scanf("%d", &temperaturas[i]);
+		scanf("%d", &temperaturas[51]);
 		total+=temperaturas[i];
 		i++;
 		
