@@ -1,5 +1,5 @@
 int main(void){
-	short int temperaturas[51];
+	short int temperaturas[49];
 	int i=0; 
 	float media;
 	float total=0;
@@ -7,7 +7,7 @@ int main(void){
 
 	while(i<=51){
 		printf("Entre com uma temperatura: ");
-		scanf("%d", &temperaturas[51]);
+		scanf("%d", &temperaturas[49]);
 		total+=temperaturas[i];
 		i++;
 		
@@ -16,7 +16,7 @@ int main(void){
 	printf("\nA media e: %f", media);
 
   
-	for(i=0;i<=4;i++){
+	for(i=0;i<=49;i++){
 		if (temperaturas[i]>media){
 				maisalta+=1;
       
