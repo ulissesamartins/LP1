@@ -1,19 +1,20 @@
+#include <stdio.h>
 int main(void){
 	short int temperaturas[49];
 	int i=0; 
-	float media;
-	float total=0;
+	int media=0;
+	int total=0;
 	int maisalta=0;
-
-	while(i<=51){
+	
+	while(i<=49){
 		printf("Entre com uma temperatura: ");
-		scanf("%d", &temperaturas[49]);
+		scanf("%d", &temperaturas[i]);
 		total+=temperaturas[i];
 		i++;
 		
 	}
 	media=(total/i);
-	printf("\nA media e: %f", media);
+	printf("\nA Media das temperaturas e igual a: %d", media);
 
   
 	for(i=0;i<=49;i++){
@@ -22,7 +23,7 @@ int main(void){
       
     }
   }
-  printf("\nO numero de temperaturas acima da media: %d\n", maisalta);
+  printf("\nO numero de temperaturas acima da media e de: %d\n", maisalta);
   
   return 0;
 }
